@@ -2,8 +2,8 @@
 import json
 import re
 
-from schema_link import link_question_to_schema
-from find_join_paths import find_join_paths, get_schema
+from src.schema_link import link_question_to_schema
+from src.find_join_paths import find_join_paths, get_schema
 
 
 def quote_identifier(name):
